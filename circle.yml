@@ -1,6 +1,6 @@
 general:
   artifacts:
-    - "hello.jar"
+    - "target/hello.jar"
 compile:
   override:
       - lein do clean, uberjar
