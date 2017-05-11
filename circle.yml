@@ -1,0 +1,6 @@
+general:
+  artifacts:
+    - "hello.jar"
+compile:
+  override:
+      - lein do clean, uberjar
